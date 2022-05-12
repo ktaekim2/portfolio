@@ -39,8 +39,8 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <style>
     .login1 {
-      padding-left: 300px;
-      padding-right: 300px;
+      padding-left: 450px;
+      padding-right: 450px;
     }
   </style>
 </head>
@@ -68,13 +68,12 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-              <span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="index.html#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
           <li><a href="login.html" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Login</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -101,7 +100,7 @@
     <section class="inner-page">
       <div class="container">
         <p>
-        <form class="login1">
+        <form class="login1" action="signup.html" method="get">
           <div class="mb-3">
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
               placeholder="아이디">
@@ -110,8 +109,9 @@
           <div class="mb-3">
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="비밀번호">
           </div>
+          <form class="login1" action="signup.html" method="get">
           <button type="submit" class="btn btn-primary">로그인</button>
-          <button type="submit" onClick="location.href='signup.html'" class="btn btn-primary">회원가입</button>
+          <button type="submit" class="btn btn-primary">회원가입</button>
         </form>
         </p>
       </div>
